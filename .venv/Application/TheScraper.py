@@ -10,7 +10,8 @@ tweet = content.find_All('p', attrs={"class": "content"}).text
 # .text says that if pTag with class Content found, select text Content of tag
 for tweet in content.find_All('p', attrs={"class": "content"}):
     print(tweet)
-    
+
+#11/02/20@1:12PM
 
 
 
